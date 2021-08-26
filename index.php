@@ -56,6 +56,14 @@
         padding: 40px;
     }
 
+    .container{
+        max-width: 800px;
+        display: flex;
+        margin: auto;
+        padding-top: 35px;
+        flex-wrap: wrap;
+    }
+
 </style>
 
 </head>
@@ -75,7 +83,11 @@
     </nav>
  
     <div class="content">
-        conteúdo
+        <div class="container">
+            <?php
+                include('home.php');
+             ?>
+        </div>
     </div>
 
     <footer>
