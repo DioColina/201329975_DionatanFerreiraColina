@@ -14,7 +14,7 @@ $produtos[] = array(
 $produtos[] = array(
     'codigo' => 'cupcake',
     'nome' => 'Cupcake Chantlly',
-    'descricao' => 'Cupcake tradicional com cobertura de chantilly.
+    'descricao' => 'Cupcake tradicional com cobertura de chantilly com varias opções de sabores.
     <br/>
     Pedido mínimo 10 unidades',
     'preco' => 6.50,
