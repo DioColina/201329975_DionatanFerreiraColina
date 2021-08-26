@@ -1,3 +1,6 @@
+<?php
+    require_once('dados/produtos.php');
+?>
 <style>
     .carta-produto{
         width: 200px;
@@ -11,22 +14,16 @@
     }
 </style>
 
-<div class="carta-produto">
-    <img src="mapa/imagens/BRIGADEIRO.png" alt="Brigadeiro">
-    <h3>Brigadeiro</h3>
-</div>
+<?php
+    foreach($produtos as $doces):
+?>
 
 <div class="carta-produto">
-    <img src="mapa/imagens/CHURROS.png" alt="Churros">
-    <h3>Churros com Doce de Leite</h3>
+    <img src="mapa/imagens/<?php echo $doces['imagem']?>" alt="<?php echo $doces['nome']?>">
+    <h3><?php echo $doces['nome']?></h3>
 </div>
 
-<div class="carta-produto">
-    <img src="mapa/imagens/CUPCAKE-TOLETÃO.png" alt="Bolinho">
-    <h3>Bolinho de Chocolate</h3>
-</div>
+<?php
 
-<div class="carta-produto">
-    <img src="mapa/imagens/TORTA-CHOCOLATE.png" alt="Torta">
-    <h3>Torta de Chocolate</h3>
-</div>
+    endforeach
+?>    

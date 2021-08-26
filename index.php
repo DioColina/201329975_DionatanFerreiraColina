@@ -24,6 +24,8 @@
 
     .logo {
         height: 80px;
+        padding-top: 10px;
+        
     }
 
     nav {
