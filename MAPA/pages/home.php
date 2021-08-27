@@ -1,5 +1,5 @@
 <?php
-    require_once('dados/produtos.php');
+    require_once('mapa/dados/produtos.php');
 ?>
 <style>
     .carta-produto{
