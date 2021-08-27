@@ -2,8 +2,8 @@
 
 $produtos['brigadeiro'] = array(
     'nome' => 'Brigadeiro',
-    'descricao' => 'Brigadeiro Tradiconal, perfeito para festas e ocasiões especiais com doçura.
-    <br/>
+    'descricao' => 'Brigadeiro Tradiconal, perfeito para festas de aniversários e ocasiões especiais.
+    <br/><br/>
     Pedido mínimo 20 unidades',
     'preco' => 2.80,
     'imagem' => 'BRIGADEIRO.png'

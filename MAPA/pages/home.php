@@ -1,5 +1,5 @@
 <?php
-    require_once('mapa/dados/produtos.php');
+    require_once('dados/produtos.php');
 ?>
 <style>
     .carta-produto{
@@ -15,13 +15,15 @@
 </style>
 
 <?php
-    foreach($produtos as $doces):
+    foreach($produtos as $id =>$doces):
 ?>
 
-<div class="carta-produto">
-    <img src="mapa/imagens/<?php echo $doces['imagem']?>" alt="<?php echo $doces['nome']?>">
-    <h3><?php echo $doces['nome']?></h3>
-</div>
+<a href="index.php?page=doces&id=<?php echo $id?>">
+    <div class="carta-produto">
+        <img src="imagens/<?php echo $doces['imagem']?>" alt="<?php echo $doces['nome']?>">
+        <h3><?php echo $doces['nome']?></h3>
+    </div>
+</a>
 
 <?php
 

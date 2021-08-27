@@ -15,6 +15,11 @@
      font-family: 'Poppins', sans-serif;   
     }
 
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
     header {
         height: 100px;
         background-color: #a94b00;
@@ -72,7 +77,7 @@
 <body>
   
     <header>
-        <img src="mapa/imagens/LOGO BLACK.png" alt="Logo" class="logo">
+        <img src="imagens/LOGO BLACK.png" alt="Logo" class="logo">
     </header>
 
     <nav>
@@ -87,7 +92,7 @@
     <div class="content">
         <div class="container">
             <?php
-                $page = "home.php";
+                $page = "home";
 
                 if(isset($_GET['page'])){
 
