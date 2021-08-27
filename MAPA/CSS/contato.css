@@ -1,0 +1,42 @@
+.form-contato{
+    width: 100%;
+}
+
+.form-contato{
+    text-align: center;
+}
+
+.form-contato input,textarea{
+    font-family: inherit;
+    font-size: 16px;
+    margin-top: 25px;
+    padding: 12px;
+    width: 100%;
+    border: 1px solid darkred;
+    border-radius: 7px;
+    background-color: sandybrown;
+}
+
+.form-contato button{
+    color: white;
+    background-color: darkred;
+    padding: 12px;
+    border: 0;
+    border-radius: 7px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: inherit;
+    min-width: 170px;
+    cursor: pointer;
+}
+
+.mensagem {
+    border: 1px solid darkred;
+    background-color: sandybrown;
+    padding: 40px;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    border-radius: 7px;
+
+}
