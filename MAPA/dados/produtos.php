@@ -1,7 +1,6 @@
 <?php
 
-$produtos[] = array(
-    'codigo' => 'brigadeiro',
+$produtos['brigadeiro'] = array(
     'nome' => 'Brigadeiro',
     'descricao' => 'Brigadeiro Tradiconal, perfeito para festas e ocasiões especiais com doçura.
     <br/>
@@ -11,8 +10,7 @@ $produtos[] = array(
 
 );
 
-$produtos[] = array(
-    'codigo' => 'cupcake',
+$produtos['cupcake'] = array(
     'nome' => 'Cupcake Chantlly',
     'descricao' => 'Cupcake tradicional com cobertura de chantilly com varias opções de sabores.
     <br/>
@@ -22,8 +20,7 @@ $produtos[] = array(
 
 );
 
-$produtos[] = array(
-    'codigo' => 'torta_choco',
+$produtos['torta'] = array(
     'nome' => 'Torta de Chocolate',
     'descricao' => 'Torta de Chocolate, sobremesa saborosa e perfeita para qualquer ocasião.
     <br/>
@@ -33,8 +30,7 @@ $produtos[] = array(
 
 );
 
-$produtos[] = array(
-    'codigo' => 'churros',
+$produtos['churros'] = array(
     'nome' => 'Churros com Doce de Leite',
     'descricao' => 'Churros açucarado recheado com doce de leite, vai bem com um cafézinho.
     <br/>

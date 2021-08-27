@@ -87,7 +87,17 @@
     <div class="content">
         <div class="container">
             <?php
-                include('home.php');
+                $page = "home.php";
+
+                if(isset($_GET['page'])){
+
+                    if(file_exists("pages/".$_GET['page'].".php")){
+                            $page = $_GET['page'];
+                    }
+                }
+                
+                
+                include("pages/$page.php");
              ?>
         </div>
     </div>
